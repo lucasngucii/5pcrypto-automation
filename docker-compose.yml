@@ -85,7 +85,7 @@ services:
     container_name: redis-n8n
     restart: always
     ports:
-      - 6379:6379
+      - 6378:6379
     volumes:
       - ./.data/redis:/data
     healthcheck:
